@@ -11,8 +11,8 @@ body {
     padding: 10px 0 120px;
 }
 
-#hero .hero-wrapper {
-  max-width: 60%;
+.hero-wrapper, .services-wrapper {
+  width: 80%;
 }
 
 .nav-item a {
@@ -21,12 +21,12 @@ body {
 }
 
 .nav-item a:hover {
-
     text-decoration: underline;
 }
 
 #hero img {
-    max-width: 400px;
+    max-width: 500px;
+    border-radius: 12px;
 }
 
 .navigation {
@@ -80,6 +80,45 @@ body {
     padding: 10px 20px;
     border: none;
     border-radius: 8px;
+}
+
+#services {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 120px;
+}
+
+#services .heading {
+    color: #1F2937;
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#services .thumbnail-img img {
+    max-width: 100%;
+    border-radius: 12px;
+}
+
+.thumbnails {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.thumbnail {
+    padding-left: 5%;
+}
+
+.thumbnail:first-child {
+    padding-left: 0;
+}
+
+#testimonial {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 120px;
 }
 
 
